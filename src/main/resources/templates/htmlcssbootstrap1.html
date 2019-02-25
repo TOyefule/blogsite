@@ -11,6 +11,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Felipa" rel="stylesheet">
 
+
     <title>Hello, world!</title>
 
 </head>
@@ -39,6 +40,24 @@
     </nav>
 </div>
 <br/>
+<div class="container">
+
+    <h2>Understanding the CSS Box Model</h2>
+    <p>
+        "At the risk of sounding redundant:" <strong>every element in a web design is a rectangular box</strong> This
+    </p>
+
+    <p>What we haven't talked about much is the box itself. How is the size of the box calculated exactly?
+        Here is a diagram:</p>
+    <figure><img src="//css-tricks.com/wp-content/csstricks-uploads/thebox.png" width="570" height="248" alt=""></figure>
+
+    <p> If you are a Firebug user, you might be used to the diagram like this, which does a nice job of showing you the numbers affecting any box on the page: </p>
+
+    <figure><img src="//css-tricks.com/wp-content/csstricks-uploads/firebox.png" width="570" height="234" alt=""></figure>
+    <p>Notice in both examples the margin is in the white. Margin is unique in that it doesn't affect the size of the box itself per se, but it affects
+    <em>other</em> content interacting with the box, and thus an important part of the CSS box model.</p>
+
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
