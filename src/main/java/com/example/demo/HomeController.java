@@ -70,4 +70,15 @@ public class HomeController {
     public String getHtmlCSSBootstrap2(){
         return "htmlcssbootstrap2";
     }
+
+    @RequestMapping("/housing")
+    public String getHousing(){
+        return "housing";
+    }
+
+    @RequestMapping("/maven")
+    public String getMaven(){
+        return "maven";
+    }
+
 }
